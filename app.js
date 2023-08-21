@@ -22,9 +22,12 @@
 //         document.getElementById('he').value = Del.slice(0,-1)
 //        }
     //  console.log('hi')
+    // value add krny ka tarika
     const Cal =(valu)=>{
         let get_val = document.getElementById("he").value += valu
     }
+    // end 
+    // result 
     const Result =()=>{
       let x =  document.getElementById("he").value
       let b = eval(x)
