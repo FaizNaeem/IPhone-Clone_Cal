@@ -33,6 +33,8 @@
       let b = eval(x)
       document.getElementById("he").value= b
     }
+    // end 
+    // clear 
     const Clear =()=>{
 document.getElementById("he").value=''
     }
@@ -40,3 +42,4 @@ document.getElementById("he").value=''
         let dlt = document.getElementById("he").value
         document.getElementById("he").value=dlt.slice(0,-1)
     }
+    // end 
