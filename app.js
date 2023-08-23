@@ -43,3 +43,12 @@ document.getElementById("he").value=''
         document.getElementById("he").value=dlt.slice(0,-1)
     }
     // end 
+    let togle = document.querySelector("#togle")
+    let body = document.querySelector("body")
+    togle.addEventListener("click",()=>{
+        // document.getElementById("change").innerHTML=`
+        // <button id="togle"><i class="fa-solid fa-toggle-on"></i></button>
+        // `
+        body.classList.toggle("dark")
+        
+    })
